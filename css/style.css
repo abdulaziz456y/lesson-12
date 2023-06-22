@@ -5,20 +5,25 @@
 }
 
 .head {
+  top: 80px;
 }
 
 .a-1 {
+  position: fixed;
   width: 100%;
   height: 80px;
   display: flex;
   align-items: center;
   gap: 555px;
+  z-index: 20;
+  background-color: white;
 }
 
 .a-1 {
-  top: 0;
+  top: 0px;
   width: 100%;
   height: 80px;
+
 }
 
 .a-2 {
@@ -859,6 +864,7 @@ bottom: 0.19%;
   motion-rotation: 0 auto;
 }
 
+
 .h-11 input {
   position: absolute;
   padding: 15px 20px;
@@ -966,3 +972,12 @@ bottom: 0.19%;
   left: 1180px;
   top: 25px;
 }
+
+#select {
+  width:1050px ;
+  left: 200px;
+  height: 50px;
+  border: 1px solid #E0E0E0;
+}
+
+
